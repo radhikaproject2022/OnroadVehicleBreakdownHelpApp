@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.sdm_onload_vehicle_application" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Flash_page"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login_page" />
+        <activity android:name=".Create_new_account" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Area_name" />
+        <activity android:name=".Garage_shop_list" />
+        <activity android:name=".Shop_details" />
+        <activity android:name=".Enquiry_garage" />
+        <activity android:name=".Rating_form" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Profile_page" />
+        <activity android:name=".About_us" />
+        <activity android:name=".Payment" />
+        <activity
+            android:name=".Choose_mode"
+            android:label="@string/title_activity_choose_mode" >
+        </activity>
+        <activity
+            android:name=".Garage_login"
+            android:label="@string/title_activity_garage_login" >
+        </activity>
+        <activity
+            android:name=".Fuel_login"
+            android:label="@string/title_activity_fuel_login" >
+        </activity>
+        <activity
+            android:name=".MainActivity_Fuel"
+            android:label="@string/title_activity_main_activity__fuel" >
+        </activity>
+        <activity
+            android:name=".MainActivity_garage"
+            android:label="@string/title_activity_main_activity_garage" >
+        </activity>
+        <activity
+            android:name=".Create_new_account_Garage"
+            android:label="@string/title_activity_create_new_account__garage" >
+        </activity>
+        <activity
+            android:name=".Create_new_account_fuel"
+            android:label="@string/title_activity_create_new_account_fuel" >
+        </activity>
+        <activity
+            android:name=".Garage_problem_list"
+            android:label="@string/title_activity_garage_problem_list" >
+        </activity>
+        <activity
+            android:name=".Garage_User_area_name_list"
+            android:label="@string/title_activity_garage__user_area_name_list" >
+        </activity>
+        <activity
+            android:name=".Garage_proble_details"
+            android:label="@string/title_activity_garage_proble_details" >
+        </activity>
+        <activity
+            android:name=".Profile_page_Garage"
+            android:label="@string/title_activity_profile_page__garage" >
+        </activity>
+        <activity
+            android:name=".Add_shop_details"
+            android:label="@string/title_activity_add_shop_details" >
+        </activity>
+        <activity
+            android:name=".Fuel_problem_list"
+            android:label="@string/title_activity_fuel_problem_list" >
+        </activity>
+        <activity
+            android:name=".Profile_page_Fuel"
+            android:label="@string/title_activity_profile_page__fuel" >
+        </activity>
+        <activity
+            android:name=".Add_shop_details_fuel"
+            android:label="@string/title_activity_add_shop_details_fuel" >
+        </activity>
+        <activity
+            android:name=".Fuel_User_area_name_list"
+            android:label="@string/title_activity_fuel__user_area_name_list" >
+        </activity>
+        <activity
+            android:name=".Fuel_proble_details"
+            android:label="@string/title_activity_fuel_proble_details" >
+        </activity>
+        <activity
+            android:name=".Area_name_fuel"
+            android:label="@string/title_activity_area_name_fuel" >
+        </activity>
+        <activity
+            android:name=".Fuel_shop_list"
+            android:label="@string/title_activity_fuel_shop_list" >
+        </activity>
+        <activity
+            android:name=".Shop_details_fuel"
+            android:label="@string/title_activity_shop_details_fuel" >
+        </activity>
+        <activity
+            android:name=".Enquiry_garage_fuel"
+            android:label="@string/title_activity_enquiry_garage_fuel" >
+        </activity>
+    </application>
+
+</manifest>

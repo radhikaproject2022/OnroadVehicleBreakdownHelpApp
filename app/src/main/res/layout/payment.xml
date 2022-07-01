@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#56BCEA"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:id="@+id/gpay"
+        android:text="Google Pay"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#56BCEA"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:id="@+id/phone_pay"
+        android:text="Phone Pay"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">On Road Help App</string>
+    <string name="login_form_title">Login</string>
+    <string name="login_form_username">Username</string>
+    <string name="login_form_password">Password</string>
+    <string name="login_form_login">LOGIN</string>
+
+
+
+    <string-array name="city">
+        <item>MANGALORE</item>
+        <item>HUBLI</item>
+        <item>UDAPI</item>
+        <item>KARWAR</item>
+        <item>BANGALORE</item>
+    </string-array>
+
+
+
+    <string-array name="area">
+        <item>Baikampady</item>
+        <item>Bajpe</item>
+        <item>Bolar</item>
+        <item>Ammunje</item>
+        <item>Bantwal</item>
+        <item>Bondel</item>
+        <item>Ullal</item>
+    </string-array>
+
+
+
+    <string-array name="shop_list">
+        <item>UClean Laundry </item>
+        <item>Apna Laundry</item>
+        <item>Laundry4U</item>
+        <item>Maruti Laundry</item>
+        <item>Fabricspa</item>
+    </string-array>
+    <string name="title_activity_choose_mode">Choose_mode</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_garage_login">Garage_login</string>
+    <string name="title_activity_fuel_login">Fuel_login</string>
+    <string name="title_activity_main_activity__fuel">MainActivity_Fuel</string>
+    <string name="title_activity_main_activity_garage">MainActivity_garage</string>
+    <string name="title_activity_create_new_account__garage">Create_new_account_Garage</string>
+    <string name="title_activity_create_new_account_fuel">Create_new_account_fuel</string>
+    <string name="title_activity_garage_problem_list">Garage_problem_list</string>
+    <string name="title_activity_garage__user_area_name_list">Garage_User_area_name_list</string>
+    <string name="title_activity_garage_proble_details">Garage_proble_details</string>
+    <string name="title_activity_profile_page__garage">Profile_page_Garage</string>
+    <string name="title_activity_add_shop_details">Add_shop_details</string>
+    <string name="title_activity_fuel_problem_list">Fuel_problem_list</string>
+    <string name="title_activity_profile_page__fuel">Profile_page_Fuel</string>
+    <string name="title_activity_add_shop_details_fuel">Add_shop_details_fuel</string>
+    <string name="title_activity_fuel__user_area_name_list">Fuel_User_area_name_list</string>
+    <string name="title_activity_fuel_proble_details">Fuel_proble_details</string>
+    <string name="title_activity_area_name_fuel">Area_name_fuel</string>
+    <string name="title_activity_fuel_shop_list">Fuel_shop_list</string>
+    <string name="title_activity_shop_details_fuel">Shop_details_fuel</string>
+    <string name="title_activity_enquiry_garage_fuel">Enquiry_garage_fuel</string>
+
+
+
+</resources>

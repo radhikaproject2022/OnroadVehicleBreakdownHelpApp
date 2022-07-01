@@ -1,0 +1,146 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feedback / Suggestion"
+                android:id="@+id/textView_feedtxt"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorAccent"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type Subject"
+                android:textColor="#2196f3"
+                android:textSize="16dp"
+                android:id="@+id/tv_subject"
+                android:layout_below="@+id/textView_feedtxt"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/editText_sub"
+                android:layout_marginTop="5dp"
+                android:hint=""
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:layout_below="@+id/tv_subject"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type your Name"
+                android:textColor="#2196f3"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/editText_sub"
+                android:id="@+id/tv_name"
+                />
+
+            <EditText
+                android:layout_below="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/editText_name"
+                android:layout_marginTop="5dp"
+                android:hint=""
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                />
+
+            <TextView
+                android:layout_below="@+id/editText_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type your Phone Number"
+                android:textColor="#2196f3"
+                android:textSize="16dp"
+                android:id="@+id/tv_mno"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/editText_phone"
+                android:inputType="phone"
+                android:layout_marginTop="5dp"
+                android:hint=""
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:layout_below="@+id/tv_mno"
+                />
+
+            <TextView
+                android:layout_below="@+id/editText_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type your Feedback / Suggestion"
+                android:textColor="#2196f3"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tv_feed"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:singleLine="false"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:gravity="top"
+                android:id="@+id/editText_msg"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/tv_feed"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Send"
+                android:id="@+id/btn_send"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#2980b9"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/editText_msg"
+
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

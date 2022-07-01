@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pg">
+
+
+
+
+    <TextView
+        android:textColor="#00BCD4"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Break Down  Application"
+        android:id="@+id/tv_title"
+        android:textSize="20dp"
+        android:gravity="center"
+
+        />
+
+
+
+
+    <TextView
+        android:textColor="#00BCD4"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="on road help app” is a vehicle breakdown Assistance that can be used to find a mechanic basis on user location. It is an Android Application. Therefore, many android users can access this application. This application will help to reduce wasting user time for found a proper mechanic"
+        android:id="@+id/tv_designed"
+        android:textSize="20dp"
+
+        android:layout_below="@+id/tv_title"
+
+        />
+
+
+
+
+
+
+    <TextView
+        android:textColor="#00BCD4"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:id="@+id/tv_member"
+        android:textSize="20dp"
+        android:layout_below="@+id/tv_designed"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
